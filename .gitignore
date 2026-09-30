@@ -1,0 +1,4 @@
+.env
+data/book.json
+.venv/
+__pycache__/
