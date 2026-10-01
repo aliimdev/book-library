@@ -67,5 +67,8 @@ class Book:
                 raise ValueError(f"missing key {key}")
 
         return cls(
-            id=data["id"], title=data["title"], author=data["author"], read=data["read"]
+            id=data["id"], 
+            title=data["title"], 
+            author=data["author"], 
+            read=data["read"]
         )
